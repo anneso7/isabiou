@@ -1,4 +1,4 @@
-html, body {	
+html, body {
     width: 100%;
 }
 
@@ -123,13 +123,13 @@ a {
 }
 
 .carre.petit {
-    
+
     width: 175px;
     height: 175px;
 }
 
 .carre.grand {
-    
+
     padding: 20px;
 }
 
@@ -154,22 +154,22 @@ section .carre:last-child{
 }
 
 .carre.petit.violet {
-    
+
     background: linear-gradient(to top, rgba(159, 86, 152, 0.9), rgba(184, 104, 176, 0.9), rgba(159, 86, 152, 0.9));
 }
 
 .carre.petit.vert {
-    
+
     background: linear-gradient(to top, rgb(194, 202, 59), rgb(228, 235, 102), rgb(194, 202, 59));
 }
 
 .carre.petit.vert1 {
-    
+
     background: linear-gradient(to top, rgb(23, 140, 86), rgb(33, 170, 115), rgb(23, 140, 86));
 }
 
 .carre.petit.bleu {
-    
+
     background: linear-gradient(to top, rgb(82, 172, 222), rgb(117, 201, 247), rgb(82, 172, 222));
     background-color: rgb(82, 172, 222);
 }
@@ -196,8 +196,8 @@ section .carre:last-child{
 
 }
 
-.mount:after{
-    background-image: url(../images/mount.svg);
+.aubrac:after{
+    background-image: url(../images/comEnAubrac.svg);
 }
 
 .roue:after{

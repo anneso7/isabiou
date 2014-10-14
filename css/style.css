@@ -120,6 +120,7 @@ a {
     height: 350px;
     background-color: rgba(255, 255, 255, 1);
     text-align: center;
+    position: relative;
 }
 
 .carre.petit {
@@ -209,4 +210,13 @@ section .carre:last-child{
     background-size: 80%;
     margin-left: -69px;
     margin-top: -75px;
+}
+
+
+.facebook {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left: 12px;
 }

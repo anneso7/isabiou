@@ -80,7 +80,7 @@ h3:after {
 }
 
 p {
-		margin-bottom: 43px;
+		margin-bottom: 38px;
 		font-size: 16px;
 		color: #626262;
 }
@@ -161,12 +161,12 @@ section .carre:last-child{
 
 .carre.petit.vert {
 
-    background: linear-gradient(to top, rgb(194, 202, 59), rgb(228, 235, 102), rgb(194, 202, 59));
+    background: linear-gradient(to top, rgb(23, 140, 86), rgb(33, 170, 115), rgb(23, 140, 86));
 }
 
-.carre.petit.vert1 {
+.carre.petit.blanc {
 
-    background: linear-gradient(to top, rgb(23, 140, 86), rgb(33, 170, 115), rgb(23, 140, 86));
+    color: rgba(255, 255, 255, 1);
 }
 
 .carre.petit.bleu {
@@ -188,8 +188,8 @@ section .carre:last-child{
     background-image: url(../images/bulle.png);
 }
 
-.ampoule:after{
-    background-image: url(../images/ampoule.png);
+.arbre:after{
+    background-image: url(../images/arbre.png);
 }
 
 .stylo:after{
@@ -214,6 +214,14 @@ section .carre:last-child{
 
 
 .facebook {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left: 12px;
+}
+
+.web {
     position: absolute;
     width: 20px;
     height: 20px;
